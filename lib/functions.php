@@ -15,7 +15,7 @@ function getNotificationMirrored(string $message)
         return false;
     }
 
-    if ('mirror' === $push['type']) {
+    if ('mirror' !== $push['type']) {
         return false;
     }
 
