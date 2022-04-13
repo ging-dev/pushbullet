@@ -1,0 +1,12 @@
+{
+    "autoload": {
+        "files": ["lib/functions.php"]
+    },
+    "require": {
+        "ratchet/pawl": "^0.4.1",
+        "amphp/websocket-client": "^1.0"
+    },
+    "require-dev": {
+        "vimeo/psalm": "^4.22"
+    }
+}
